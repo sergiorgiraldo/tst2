@@ -1,0 +1,5 @@
+secretfile filter=git-crypt diff=git-crypt
+
+mysecret* filter=git-crypt diff=git-crypt
+
+secrets-folder/** filter=git-crypt diff=git-crypt
