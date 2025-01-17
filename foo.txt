@@ -2,3 +2,5 @@ bananas
 abacate
 figos
 batatas
+peras
+manga
