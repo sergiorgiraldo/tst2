@@ -1,0 +1,11 @@
+diff --git a/foo.txt b/foo.txt
+index 7046f21..7a447f4 100644
+--- a/foo.txt
++++ b/foo.txt
+@@ -2,3 +2,5 @@ bananas
+ abacate
+ figos
+ batatas
++peras
++manga
+\ No newline at end of file
