@@ -6,7 +6,7 @@
 
 - stacked diffs
 
-## simple
+### simple
 
 1.Pull main from upstream, and check it out.
 
@@ -25,3 +25,21 @@
     This will update the PR with the new version of your HEAD commit. spr will prompt you for a short message that describes what you changed. You can also pass the update message on the command line using the --message/-m flag of spr diff.
 
 5. Once your PR is approved, run spr land to push it upstream.
+
+## Graphite (gt)
+
+### simple
+
+1. build the feature in master
+2. gt create --all --message WHATEVER
+3. gt submit
+4. need to make a change before merge
+    4.1 gt checkout , choose the correct branch
+    4.2 make the changes
+    4.3 gt modify -a
+5. need to build another feature while the other is still open
+    5.1 build in master
+    5.2 gt create --all --message WHATEVER
+    5.3 gt submit --stack
+6. to update stacks, gt sync
+7. to see stacks, gt ls
