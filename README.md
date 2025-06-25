@@ -1,6 +1,6 @@
 # tst2
 
-## SPR (super)
+## Super (spr)
 
 - <https://github.com/spacedentist/spr>
 
